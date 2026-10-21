@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001/api";
+const API_URL = "https://local-shopping-back.vercel.app/api";
 
 async function requisicao(caminho, opcoes = {}) {
   const resposta = await fetch(`${API_URL}${caminho}`, {
